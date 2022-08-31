@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col">
+        <button class="btn" [class.active]="isClickedFirst" (click)="onclickFirstButton()">Uygunsuzluk Detayları</button>       
+    </div>
+    <div class="col">
+        <button class="btn" [class.active]="isClickedSecond" (click)="onclickSecondButton()">Değerlendirme ve Raporlama Paneli</button>   
+    </div>
+    <div class="col">
+        <button class="btn" [class.active]="isClickedThird" (click)="onclickThirdButton()">Ekleme-Güncelleme-Silme Paneli</button>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col">
+        <div class="card-custom-img" 
+        style="background-image: url(https://picsum.photos/200/300?grayscale);"></div>
+    </div>
+</div>
+
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-nonconformity-details *ngIf="isClickedFirst" [@fadeInOut]></app-nonconformity-details>
+        <app-evaluation-and-reporting-panel *ngIf="isClickedSecond" [@fadeInOut]></app-evaluation-and-reporting-panel>
+        <app-add-update-delete-panel *ngIf="isClickedThird" [@fadeInOut]></app-add-update-delete-panel>
+    </div>
+</div>

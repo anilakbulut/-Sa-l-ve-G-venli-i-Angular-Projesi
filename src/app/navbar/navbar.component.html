@@ -1,0 +1,61 @@
+<div class="out-container">
+	<div class="area-1">
+        <div class="area-1-sub1">
+          <h2 [class.active] = "selectedBuilding">Bina</h2>
+          <mat-form-field appearance="outline" >
+            <mat-label>Seçin</mat-label>
+            <mat-select panelClass="long-panel" [(value)]="selectedBuilding " >
+              <mat-option (click)="chooseNoFilter('removeBuilding');">Filtre Yok</mat-option>
+              <mat-option *ngFor="let item of building" [value]="item" (click)="chooseOption()">
+                {{item}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- <p>You selected: {{selectedBuilding}}</p> -->
+        </div>    
+    
+        <div class="area-1-sub2">
+          <h2 [class.active] = "selectedArea">Bölge</h2>
+          <mat-form-field appearance="outline">
+            <mat-label>Seçin</mat-label>
+            <mat-select panelClass="long-panel" [(value)]="selectedArea">
+              <mat-option (click)="chooseNoFilter('removeArea')">Filtre Yok</mat-option>
+              <mat-option *ngFor="let item of area" [value]="item" (click)="chooseOption()">
+                {{item}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- <p>You selected: {{selectedArea}}</p> -->
+
+        </div>
+        <div class="area-1-sub3">
+          <h2 [class.active] = "selectedTypeOfAccident">Tür</h2>
+          <mat-form-field appearance="outline">
+            <mat-label>Seçin</mat-label>
+            <mat-select panelClass="long-panel" [(value)]="selectedTypeOfAccident">
+              <mat-option (click)="chooseNoFilter('removeAccident')">Filtre Yok</mat-option>
+              <mat-option *ngFor="let item of typeOfAccident" [value]="item" (click)="chooseOption()">
+                {{item}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- <p>You selected: {{selectedTypeOfAccident}}</p> -->
+        </div>
+        <div class="area-1-sub4">
+          <h2 [class.active] = "selectedTypeOfReport">Rapor Durumu</h2>
+          <mat-form-field appearance="outline">
+            <mat-label>Seçin</mat-label>
+            <mat-select panelClass="long-panel" [(value)]="selectedTypeOfReport">
+              <mat-option (click)="chooseNoFilter('removeReport')">Filtre Yok</mat-option>
+              <mat-option *ngFor="let item of typeOfReport" [value]="item" (click)="chooseOption()">
+                {{item}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- <p>You selected: {{selectedTypeOfReport}}</p> -->
+
+        </div>
+  </div>
+</div>
+
+

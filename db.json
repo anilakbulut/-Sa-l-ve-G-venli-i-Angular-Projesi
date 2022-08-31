@@ -1,0 +1,214 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "tur": "Kaza Türü TEST",
+      "konum": "Area TEST",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color x",
+      "bina": "Akım TEST",
+      "raporturu": "Rapor Türü TEST"
+    },
+    {
+      "id": "2",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 1"
+    },
+    {
+      "id": "3",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 3",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 1"
+    },
+    {
+      "id": "4",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 4",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 1"
+    },
+    {
+      "id": "5",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 1"
+    },
+    {
+      "id": "6",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 3",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "7",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 3"
+    },
+    {
+      "id": "8",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 4",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 3"
+    },
+    {
+      "id": "9",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 1",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "10",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 4",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "11",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 1"
+    },
+    {
+      "id": "12",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 3",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 3"
+    },
+    {
+      "id": "13",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 4",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "14",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 1",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 3"
+    },
+    {
+      "id": "15",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 1",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "16",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 1"
+    },
+    {
+      "id": "17",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 3",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "18",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 4",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "19",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 3"
+    },
+    {
+      "id": "20",
+      "tur": "Kaza Türü 1",
+      "konum": "Area 3",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 3"
+    },
+    {
+      "id": "21",
+      "tur": "Kaza Türü 2",
+      "konum": "Area 2",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 1",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "22",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 4",
+      "bildiren": "A kişisi",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    },
+    {
+      "id": "mEFR_vV"
+    },
+    {
+      "id": "23",
+      "tur": "Kaza Türü 3",
+      "konum": "Area 4",
+      "bildiren": "Anıl",
+      "aciklama": "Lorem ipsum color 1",
+      "bina": "Akım 2",
+      "raporturu": "Rapor Türü 2"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<app-navbar (valueChange)="getFilterFromNavbar($event)"></app-navbar>
+
+<!-- <p > {{filteredDataContent.viewBuild}}</p>
+<p > {{filteredDataContent.viewArea}}</p>
+<p > {{filteredDataContent.viewTypeOfAccident}}</p>
+<p > {{filteredDataContent.viewTypeOfReport}}</p> -->
+
+<div class="">
+	<div class="row" style="justify-content:center ;">
+		<div class="col-sm-12 col-md-6 col-lg-4 col-xl-2 col-xxl-1" 
+		*ngFor="let item of isgData | filterArea:filteredDataContent | filterBuilding:filteredDataContent
+		| filterTypeOfAccident:filteredDataContent | filterTypeOfReport:filteredDataContent"
+		style="width: 300px;margin:15px;">
+		  <div class="card card-custom bg-white border-white border-0">
+			<div class="card-custom-img" style="background-image: url(https://picsum.photos/200/300?grayscale);"></div>
+			<div class="card-body " style="overflow-y: auto;background-color: #f1ebe7;">
+				<h3 class="titleClass">İş Kazası Bildirimi</h3>
+				<div class="mb-3 mt-1" >
+					<span class="titleSpan">Tür Bilgisi: </span>
+					<span class="descSpan">{{item.tur}}</span>
+				</div>
+				<div class="mb-3 mt-1" >
+					<span class="titleSpan">Konum: </span>
+					<span class="descSpan">{{item.konum}}</span>
+				</div>
+				<div class="mb-3 mt-1" >
+					<span class="titleSpan">Bildiren Kişi: </span>
+					<span class="descSpan">{{item.bildiren}}</span>
+				</div>
+				<div class="mb-3 mt-1" >
+					<span class="titleSpan">Açıklama: </span>
+					<span class="descSpan">{{item.aciklama}}</span>
+				</div>
+			</div>
+			<div class="card-footer" >
+				<a href="javascript:void(0);">
+					<mat-icon aria-hidden="false" fontIcon="border_color" class="float-end ms-2 "
+					(click)="openDialog('750ms', '1000ms')"
+					></mat-icon>
+				</a>
+				<a href="javascript:void(0);">
+					<mat-icon aria-hidden="false" fontIcon="file_download" class="float-end"></mat-icon>
+				</a>
+			</div>
+		  </div>
+		</div>	
+	</div>
+</div>
